@@ -1,0 +1,91 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"MinLineWidth": 0.25,
+"PadToPad": 0.2,
+"PadToTrack": 0.2,
+"TrackToTrack": 0.2
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "microtron-F_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L2,Bot",
+"FilePolarity": "Positive",
+"Path": "microtron-B_Cu.gbr"
+},
+{
+"FileFunction": "Legend,Top",
+"FilePolarity": "Positive",
+"Path": "microtron-F_SilkS.gbr"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "microtron-F_Mask.gbr"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "microtron-B_Mask.gbr"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "microtron-Edge_Cuts.gbr"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 1.6,
+"LayerNumber": 2,
+"ProjectId": {
+"GUID": "47696761-7472-46f6-9e2e-6b696361645f",
+"Name": "Gigatron",
+"Revision": "rev?"
+},
+"Size": {
+"X": 235.1,
+"Y": 158.9
+}
+},
+"Header": {
+"CreationDate": "2020-07-17T12:20:37+01:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "(5.1.6)-1"
+}
+},
+"MaterialStackup": [
+{
+"Notes": "Layer F.SilkS",
+"Type": "Legend"
+},
+{
+"Notes": "Layer F.Mask",
+"Type": "SolderMask"
+},
+{
+"Notes": "Layer F.Cu",
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Notes": "Layers L1/L2",
+"Type": "Dielectric"
+},
+{
+"Notes": "Layer B.Cu",
+"Type": "Copper"
+},
+{
+"Notes": "Layer B.Mask",
+"Type": "SolderMask"
+}
+]
+}

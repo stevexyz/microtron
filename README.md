@@ -1,8 +1,5 @@
-This is a version of the files from https://gigatron.io/ altered to work on a vanilla KiCAD 5.1.6. Changes are minimal in the schematic and PCB, layout has only
-been changed where puts dimensions or orientations changed as a result of symbol change.
+This is a fork of gigatron that is trying to minimize even more the number of components required.
 
-The PCB hase been routed with FreeRouter automaticaly. https://freerouting.org/
+Discussion can be found on https://forum.gigatron.io/viewtopic.php?t=255
 
-The Omega symbol has been removed as it broke the routing software.
-
-No Copyright is claimed and rmeinas with the orgibal creators of Gigatron.
+Schematic files are edited with KiCAD 6.
