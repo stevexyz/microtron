@@ -29,15 +29,15 @@ What register to write (from the bus):
 05. L and R (mixing bus and T)
 06. AuxOut / Audio / Led
 07. Vga / KeyRow
-08. PCL (jump short)
-09. PCL if Zero
-10. PCL if halfCarry
-11. PCL if siGn
-12. PCL and PCH from T (jump long)
-13. ram[Y,X]
-14. ram[Y,L]
-15. ram[Y,R]
-... L (half bus half T), all ram[0,], X++ 
+08. ram[Y,X]
+09. ram[Y,L]
+10. ram[Y,R]
+11. PCL and PCH from T (jump long)
+12. PCL if Zero
+13. PCL if halfCarry
+14. PCL if siGn
+15. PCL (jump short)
+... L (half bus half T), all ram[0,*], all X++
 What value to put to the bus:
 00. ram[0,X++]
 01. ram[0,X]
@@ -47,7 +47,7 @@ What value to put to the bus:
 05. ram[Y,X]
 06. ram[Y,L]
 07. ram[Y,R]
-08. <reserved> 
+08. <reserved> (to keep bit4 for RAM signal ~WE)
 09. D (numeric literal following byte)
 10. R
 11. S

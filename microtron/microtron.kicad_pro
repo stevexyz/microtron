@@ -393,7 +393,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "microtron.dsn",
       "step": "",
       "vrml": ""
     },

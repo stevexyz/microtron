@@ -2986,7 +2986,7 @@
       (reference "U5") (unit 1) (value "74HCT273") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000597406f7/d0ef4a8e-c274-412e-a218-f4254e27eda0"
-      (reference "U6") (unit 1) (value "74HCT374") (footprint "Package_DIP:DIP-22_W7.62mm_Socket")
+      (reference "U6") (unit 1) (value "74HCT374") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00005973fc22/00000000-0000-0000-0000-0000598f7234"
       (reference "U7") (unit 1) (value "27C1024") (footprint "Package_DIP:DIP-40_W15.24mm")

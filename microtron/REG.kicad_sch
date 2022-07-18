@@ -2494,7 +2494,7 @@
     (property "Value" "74HCT374" (id 1) (at 177.889 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DIP:DIP-22_W7.62mm_Socket" (id 2) (at 175.8696 59.0296 0)
+    (property "Footprint" "Package_DIP:DIP-20_W7.62mm" (id 2) (at 175.8696 59.0296 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd74hct374.pdf" (id 3) (at 175.8696 59.0296 0)
